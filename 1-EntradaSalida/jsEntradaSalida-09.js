@@ -12,6 +12,6 @@ function mostrarAumento()
 
 	nuevoSueldo = sueldo + (sueldo * .1);
 
-	document.getElementById("txtIdResultado").value = nuevoSueldo;
+	document.getElementById("txtIdResultado").value = nuevoSueldo.toFixed(2);
 
 }

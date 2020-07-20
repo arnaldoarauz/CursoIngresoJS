@@ -12,7 +12,7 @@ function mostrarAumento()
 
 	resultado = importe - (importe * .25);
 
-	document.getElementById("txtIdResultado").value = resultado
+	document.getElementById("txtIdResultado").value = resultado.toFixed(2);
 
 
 }
